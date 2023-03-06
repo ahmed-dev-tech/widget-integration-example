@@ -1,6 +1,7 @@
 const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
+  mode: 'development',
   entry: {
     'buy-crypto': './src/buy-crypto.js',
     'buy-smart-contract': './src/buy-smart-contract.js',
